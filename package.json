@@ -1,0 +1,34 @@
+{
+  "name": "s-counter",
+  "version": "1.0.0",
+  "description": "# counter app webpack 으로 구축해보기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build" :"webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngsims/s-counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngsims/s-counter/issues"
+  },
+  "homepage": "https://github.com/youngsims/s-counter#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
