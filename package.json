@@ -20,7 +20,7 @@
   "homepage": "https://github.com/youngsims/s-counter#readme",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
